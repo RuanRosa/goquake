@@ -26,8 +26,8 @@ replace quake.log file for your log and execute
 <code>go run cmd/main.go</code>
 
 <h2>project tree</h2>
-```
-.
+<pre>
+.    
 ├── cmd
 │   └── main.go
 ├── domain
@@ -43,4 +43,4 @@ replace quake.log file for your log and execute
 ├── teste.json
 └── utils
     └── string.go
-```
+</pre>
