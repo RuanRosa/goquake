@@ -17,13 +17,17 @@
                                                                                   `                 `
 
 ```
+
 <h1>GoQuake</h1>
 
 <p>goquake was created to make it possible to export data from quake servers through positional files</p>
 
+<h2>Requirements</h2>
+ - jq
+
 <h2>⚡ Run</h2>
 replace quake.log file for your log and execute
-<code>go run cmd/main.go</code>
+<code>go run cmd/main.go | jq .</code>
 
 <h2>project tree</h2>
 <pre>
